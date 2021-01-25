@@ -25,8 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8468428c-9bab-4bd4-b8b1-fb43d1e05b5c" name="Default Changelist" comment="refactor clearInput method to be available on all OS&#10;remove msedgedriver from dependencies and configuration">
-      <change beforePath="$PROJECT_DIR$/.circleci/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
+    <list default="true" id="8468428c-9bab-4bd4-b8b1-fb43d1e05b5c" name="Default Changelist" comment="fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -172,7 +171,8 @@
       <workItem from="1610676225842" duration="623000" />
       <workItem from="1610716123244" duration="3855000" />
       <workItem from="1610767471689" duration="1266000" />
-      <workItem from="1611292630307" duration="9674000" />
+      <workItem from="1611292630307" duration="11550000" />
+      <workItem from="1611617731856" duration="439000" />
     </task>
     <task id="LOCAL-00001" summary="refactor clearInput method to be available on all OS&#10;remove msedgedriver from dependencies and configuration">
       <created>1610394593595</created>
@@ -195,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611378509112</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fix">
+      <created>1611508382836</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1611508382836</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,15 +214,9 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="FILTERS">
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
                 <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="circleci-project-setup" />
-                      </list>
-                    </value>
-                  </entry>
+                  <entry key="Show.Git.Branches" value="false" />
                 </map>
               </option>
             </State>
@@ -227,29 +228,34 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="refactor clearInput method to be available on all OS&#10;remove msedgedriver from dependencies and configuration" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor clearInput method to be available on all OS&#10;remove msedgedriver from dependencies and configuration" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1344" height="266" key="GridCell.Tab.0.bottom" timestamp="1611363314497">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1344" height="266" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1611363314497" />
-    <state width="1344" height="266" key="GridCell.Tab.0.center" timestamp="1611363314496">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1344" height="266" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1611363314496" />
-    <state width="1344" height="266" key="GridCell.Tab.0.left" timestamp="1611363314496">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1344" height="266" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1611363314496" />
-    <state width="1344" height="266" key="GridCell.Tab.0.right" timestamp="1611363314497">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1344" height="266" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1611363314496" />
-    <state x="1032" y="256" key="Vcs.Push.Dialog.v2" timestamp="1611378531494">
+    <state width="956" height="406" key="GridCell.Tab.0.bottom" timestamp="1611543294361">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1032" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611378531494" />
+    <state width="1344" height="266" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1611363314497" />
+    <state width="956" height="406" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611543294361" />
+    <state width="956" height="406" key="GridCell.Tab.0.center" timestamp="1611543294361">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1344" height="266" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1611363314496" />
+    <state width="956" height="406" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611543294361" />
+    <state width="956" height="406" key="GridCell.Tab.0.left" timestamp="1611543294361">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1344" height="266" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1611363314496" />
+    <state width="956" height="406" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611543294361" />
+    <state width="956" height="406" key="GridCell.Tab.0.right" timestamp="1611543294361">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1344" height="266" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1611363314496" />
+    <state width="956" height="406" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611543294361" />
+    <state x="1032" y="256" key="Vcs.Push.Dialog.v2" timestamp="1611508390716">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1032" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611508390716" />
     <state x="508" y="286" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611363177389">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
