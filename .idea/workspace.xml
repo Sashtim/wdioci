@@ -76,7 +76,7 @@
       <recent name="C:\Users\Dmitriy\WebstormProjects\webdrivertest" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.test:chrome:headless">
+  <component name="RunManager" selected="npm.report:open">
     <configuration name="report:generate" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -147,10 +147,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.report:generate" />
         <item itemvalue="npm.test:firefox" />
         <item itemvalue="npm.test:chrome" />
         <item itemvalue="npm.test:firefox:headless" />
-        <item itemvalue="npm.report:generate" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +171,8 @@
       <workItem from="1610716123244" duration="3855000" />
       <workItem from="1610767471689" duration="1266000" />
       <workItem from="1611292630307" duration="11550000" />
-      <workItem from="1611617731856" duration="1115000" />
+      <workItem from="1611617731856" duration="3877000" />
+      <workItem from="1611714588836" duration="771000" />
     </task>
     <task id="LOCAL-00001" summary="refactor clearInput method to be available on all OS&#10;remove msedgedriver from dependencies and configuration">
       <created>1610394593595</created>
@@ -208,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611618179239</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fix">
+      <created>1611624222828</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1611624222828</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,7 +230,7 @@
             <State>
               <option name="CUSTOM_BOOLEAN_PROPERTIES">
                 <map>
-                  <entry key="Show.Git.Branches" value="false" />
+                  <entry key="Show.Git.Branches" value="true" />
                 </map>
               </option>
             </State>
@@ -238,30 +246,30 @@
     <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="956" height="406" key="GridCell.Tab.0.bottom" timestamp="1611543294361">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1344" height="266" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1611363314497" />
-    <state width="956" height="406" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611543294361" />
-    <state width="956" height="406" key="GridCell.Tab.0.center" timestamp="1611543294361">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1344" height="266" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1611363314496" />
-    <state width="956" height="406" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611543294361" />
-    <state width="956" height="406" key="GridCell.Tab.0.left" timestamp="1611543294361">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1344" height="266" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1611363314496" />
-    <state width="956" height="406" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611543294361" />
-    <state width="956" height="406" key="GridCell.Tab.0.right" timestamp="1611543294361">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1344" height="266" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1611363314496" />
-    <state width="956" height="406" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611543294361" />
-    <state x="550" y="179" key="Vcs.Push.Dialog.v2" timestamp="1611618194890">
+    <state width="1345" height="262" key="GridCell.Tab.0.bottom" timestamp="1611625307164">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="550" y="179" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1611618194890" />
+    <state width="1345" height="262" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1611625307164" />
+    <state width="956" height="406" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611543294361" />
+    <state width="1345" height="262" key="GridCell.Tab.0.center" timestamp="1611625307162">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="262" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1611625307162" />
+    <state width="956" height="406" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611543294361" />
+    <state width="1345" height="262" key="GridCell.Tab.0.left" timestamp="1611625307161">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="262" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1611625307161" />
+    <state width="956" height="406" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611543294361" />
+    <state width="1345" height="262" key="GridCell.Tab.0.right" timestamp="1611625307163">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="262" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1611625307163" />
+    <state width="956" height="406" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611543294361" />
+    <state x="550" y="179" key="Vcs.Push.Dialog.v2" timestamp="1611624245791">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="550" y="179" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1611624245791" />
     <state x="1032" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611508390716" />
     <state x="508" y="286" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611363177389">
       <screen x="0" y="0" width="1366" height="728" />
